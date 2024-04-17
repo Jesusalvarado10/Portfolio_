@@ -32,7 +32,8 @@ export const data=[{id:1,
     name:"Web University Final",
     description_short:"Una página web creada en React y TypeScript con Tailwind CSS y Firebase, diseñada para agrupaciones universitarias. Ofrece funciones como inicio de sesión, registro de usuarios, unión a grupos, búsqueda de agrupaciones y administración de grupos y temas. Se utilizó la metodología Open UP para su desarrollo. Puedes encontrar el proyecto aquí: (espacio para el enlace).",
     descrition_long:"Este proyecto consiste en una página web desarrollada en React y TypeScript, utilizando Tailwind CSS para el diseño y Firebase para la autenticación y el almacenamiento de datos. Está diseñada para ser utilizada por agrupaciones de una universidad, ofreciendo funciones como inicio de sesión, registro de usuarios y la posibilidad de unirse a grupos existentes. Los usuarios pueden buscar agrupaciones, modificar sus datos personales y explorar los grupos disponibles. Además, cuenta con un área de administración donde los administradores pueden agregar, eliminar y modificar grupos y temas. La metodología Open UP se utilizó en el proceso de desarrollo para garantizar una planificación y ejecución efectivas del proyecto. El enlace al proyecto se encuentra disponible aquí: (espacio para el enlace).",
-    img:"https://i.ibb.co/L6v8mW1/image.png"
+    img:"https://i.ibb.co/L6v8mW1/image.png",
+    link:"https://proyectofinalsdi.web.app/inicio"
 
 }
 ,{  id:6,
@@ -40,7 +41,8 @@ export const data=[{id:1,
     name:"Web University Microproject",
     description_short:"Una página web desarrollada en React y TypeScript, alojada en Firebase, que permite a los usuarios iniciar sesión, registrarse y unirse a grupos específicos. La plataforma se centra en la simplicidad y la funcionalidad básica para ofrecer una experiencia de usuario intuitiva y sin complicaciones.",
     descrition_long:"Este proyecto es una página web desarrollada en React y TypeScript, con Firebase como base de datos y servicio de alojamiento. La página ofrece una experiencia sencilla centrada en la visualización y unión a grupos específicos. Los usuarios pueden iniciar sesión o registrarse para acceder a la funcionalidad completa. Una vez autenticados, tienen la capacidad de explorar los grupos disponibles y unirse a aquellos que les interesen. La integración con Firebase permite un almacenamiento seguro de datos de usuarios y grupos, así como la implementación de funciones de autenticación robustas. La simplicidad de diseño y la facilidad de uso son los principales enfoques de esta página web.",
-    img:"https://i.ibb.co/F0jgspR/image.png"
+    img:"https://i.ibb.co/F0jgspR/image.png",
+    link:"https://microproyecto-26dd2.web.app/home"
 
 },
 {   id:7,
@@ -48,8 +50,16 @@ export const data=[{id:1,
     name:"Web Anime Recomendation",
     description_short:"Una página web desarrollada en React y TypeScript que muestra una lista de animes desde una API. Los usuarios pueden iniciar sesión para dar like a los animes y recibir recomendaciones personalizadas. La información del usuario se almacena en Firebase, mientras que las recomendaciones se generan utilizando un grafo en Neo4j, aplicando conocimientos en bases de datos políglotas para integrar múltiples tecnologías de almacenamiento de datos.",
     descrition_long:"Este proyecto es una página web desarrollada en React y TypeScript que utiliza datos de una API de animes para mostrar una lista de animes en la página principal. Los usuarios pueden iniciar sesión para dar like a los animes que les gusten y recibir recomendaciones personalizadas. La información del usuario se almacena en Firebase, proporcionando una base de datos escalable y segura para la gestión de cuentas. Las recomendaciones de anime se generan utilizando un grafo en Neo4j, aprovechando los conocimientos en bases de datos políglotas para integrar múltiples tecnologías de almacenamiento de datos. Esta combinación de Firebase para la gestión de usuarios y Neo4j para la generación de recomendaciones permite una experiencia de usuario personalizada y enriquecida.",
-    img:"https://i.ibb.co/4Mc6DB5/image.png"
+    img:"https://i.ibb.co/4Mc6DB5/image.png",
+    link:"https://proyecto-base-de-datos.vercel.app/home"
 
+},
+{   id:8,
+    url:"https://github.com/Jesusalvarado10/ProyectoSistemas" ,
+    name:"Bingo",
+    description_short:"Un programa en Java Script que simula un juego de bingo, permitiendo a los usuarios comprar cartones, generar números aleatorios y verificar si tienen una combinación ganadora. Utiliza conceptos de programación orientada a objetos y ofrece una interfaz gráfica simple para una experiencia de usuario intuitiva.",
+    descrition_long:"Este proyecto consiste en un programa en Java que simula un juego de bingo, permitiendo a los usuarios comprar cartones, generar números aleatorios y verificar si tienen una combinación ganadora. Se han aplicado conceptos de programación orientada a objetos para la creación de clases y métodos que gestionan el juego de bingo de manera eficiente y estructurada. La interfaz gráfica proporciona una experiencia de usuario intuitiva y sencilla, permitiendo a los jugadores interactuar con el juego de forma cómoda y divertida. El programa se ejecuta en la consola y ofrece una funcionalidad completa para disfrutar de una partida de bingo virtual.",
+    img:"https://i.ibb.co/Z6XjTF1/image.png",
+    link:"https://jesusalvarado10.github.io/ProyectoSistemas/"
 }
-
 ]

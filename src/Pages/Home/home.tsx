@@ -11,15 +11,15 @@ export function Home() {
       <style>
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap')
 </style>
-      <div className="h-screen flex items-center max-w-screen justify-evenly mr-20">
-      <div className="max-w-md mx-auto ">
-        <h1 className="bold text-5xl" style={{ fontFamily: "'Sedgwick Ave', cursive" }}>I'm a full stack developer</h1>
+      <div className="h-screen flex items-center max-w-screen  mr-40">
+      <div className="max-w-sm mx-auto ">
+        <h1 className="bold text-5xl mb-5 text-gray-800" style={{ fontFamily: "'Sedgwick Ave', cursive" }}>I'm a full stack developer</h1>
         <small className="block mt-2">Hello! I'm Jesus Alvarado, a student of Systems Engineering at Universidad Metropolitana. I have skills in both backend and frontend development. I'm familiar with technologies such as React.js, TypeScript, Python, Java, and SQL. Additionally, I have experience working with various databases, including some non-relational ones. I'm committed to continuing to learn and grow in this exciting field.</small>
       </div>
         <div className="h-60">
   <img
 
-    className="max-h-full max-w-full"
+    className="max-h-full max-w-full "
     src="https://i.pinimg.com/originals/ab/a7/b3/aba7b3e17c2f0ac97607a15245922979.jpg"
     alt=""
     style={{ maskImage: 'linear-gradient(white 80%, transparent)' }}
@@ -48,7 +48,12 @@ export function Home() {
   >
     <Meta
        title={<a href={item.url} target="_blank">{item.name}</a>}
-      description=    {item.description_short}
+       description={
+        <span>
+          {item.description_short}
+          {' '}
+          {item.link && <a className="text-blue-500 hover:text-blue-700" href={item.link}>Link para ir a la página</a>} </span>
+        }
     />
   </Card>
         </List.Item>
